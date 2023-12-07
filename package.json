@@ -1,0 +1,43 @@
+{
+  "name": "next-trpc-prisma",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@prisma/client": "5.6.0",
+    "@trpc/client": "9.27.2",
+    "@trpc/next": "9.27.2",
+    "@trpc/react": "9.27.2",
+    "@trpc/server": "9.27.2",
+    "bcryptjs": "^2.4.3",
+    "cookies-next": "^4.1.0",
+    "formik": "^2.4.5",
+    "jsonwebtoken": "^9.0.2",
+    "next": "14.0.3",
+    "prisma": "^5.6.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-query": "3",
+    "react-simple-snackbar": "^1.1.11",
+    "ts-node": "^10.9.1",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/jsonwebtoken": "^9.0.5",
+    "@types/node": "20.10.3",
+    "@types/react": "18.2.41",
+    "@types/react-dom": "18.2.17",
+    "autoprefixer": "^10.4.16",
+    "eslint": "8.55.0",
+    "eslint-config-next": "14.0.3",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^3.3.6",
+    "typescript": "5.3.2"
+  }
+}
